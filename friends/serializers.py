@@ -1,4 +1,4 @@
-from rest_framework import Serializers
+from rest_framework import serializers
 from .import models
 
 class FriendSerializer(serializers.ModelSerializer):
